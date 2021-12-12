@@ -1,0 +1,11 @@
+{
+	"name": "devcontainer-lua",
+	"dockerFile": "Dockerfile",
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash",
+	},
+	"extensions": [
+		"actboy168.lua-debug",
+		"actboy168.extension-path"],
+	"postCreateCommand": "lua invoke_scrapper_script.lua",
+}
